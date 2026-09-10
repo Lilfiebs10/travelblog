@@ -1,1 +1,13 @@
 # travelblog
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Travel Blog</title>
+</head>
+<body>
+<h1>Welcome to My Travel Adventures</h1>
+<p>This is my first blog post about exploring new places.</p>
+</body>
+</html>
