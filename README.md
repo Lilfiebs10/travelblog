@@ -7,10 +7,15 @@
 <title>My Travel Blog</title>
 </head>
 <body>
+  <header>
 <h1>Welcome to My Travel Adventures</h1>
+  </header>
+  <main>
+    <article><h2>I have many stories from traveling.  There were many people i came across from both afar and close.  The most interesting place i visited was in Paris.</h2></article>
 <p>This is my first blog post about exploring new places.</p>
 <h2>My First Trip</h2>
   <p></strong>I took my first trip to Europe. I started in Ireland, explored Dublin, and then tried all the new foods.  I then went to belfast and learned about its history.  Lastly I ended up in Italy and explored Florence and Venice. <strong> </p>
     <blockquote>The mind is as explorasive as your steps will take you- christopher columbus</blockquote>
 </body>
+    <footer><p>Copyright 2017 The travel blog</p></footer>
 </html>
