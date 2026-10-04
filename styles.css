@@ -15,6 +15,9 @@ header nav a:hover {
       color: var(--accent-color);
       text-decoration:underline;
 }
+header nav a:visited {
+      color: var(--primary-color);
+}
 article h2 { 
       color: var(--primary-color);
       border-bottom: 2px solid #ccc;
@@ -39,5 +42,9 @@ p {
 .highlight {
       background-color: #e6f2f2;
       padding: 10px;
+}
+#main-heading {
+      border-bottom: 3px solid var(--accent-color);
+      padding-bottom: 10px;
 }
       
