@@ -1,3 +1,10 @@
+:root {
+      --primary-color: darkorange;
+      --accent-color: grey;
+      --text-color: #333333;
+      --background-color: #f9f9f9;
+      --font-stack: Arial, sans-serif;
+}
 body { 
       background-color: var(--background-color);
       font-family: var(--font-stack);
@@ -24,13 +31,7 @@ h2 {
 p {
       color:var(--text-color);
       font-size: 1rem;
-:root {
-      --primary-color: darkorange;
-      --accent-color: grey;
-      --text-color: #333333;
-      --background-color: #f9f9f9;
-      --font-stack: Arial, sans-serif;
-}
+
       a href  :hover,:visited {
             color: blue;
       
