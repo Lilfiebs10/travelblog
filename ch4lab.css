@@ -1,0 +1,27 @@
+footer {
+      background-color: lightblue;
+      font-family: Arial, sans-serif;
+      color: darkblue;
+      padding: 10px;
+      border: 10px;
+}
+#notice {
+      width: 80%;
+      margin: 0 auto;
+}
+.headline {
+      color:darkblue;
+      border-bottom: 2px dotted darkblue;
+}
+h1 {
+      color: darkblue;
+      border-bottom: 2px dotted darkblue;
+}
+#section {
+      font-size:small;
+      color:purple;
+      font-family: Arial, sans-serif;
+      background-color:white;
+      width: 80%;
+      box-shadow: 2px 2px 5px gray;
+}
