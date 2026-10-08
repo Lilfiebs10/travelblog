@@ -48,6 +48,7 @@ a[href] :hover,:visited {
       border-bottom: 3px solid var(--accent-color);
       padding-bottom: 10px;
 }
+<<<<<<< HEAD
 header {
       background: linear-gradient(to right rgba(0,90,160,0.55) , rgba(80,170,255,0.35)), url("images/header-bg.jpg");
       background-size: cover;
@@ -124,3 +125,6 @@ h1 {
       width: 80%;
       box-shadow: 2px 2px 5px gray;
 }
+=======
+      
+>>>>>>> 6ba0d6405c61f715c52309cf9003aaf196cf0963
