@@ -1,0 +1,19 @@
+a:link {
+    background-color: lightseagreen
+}
+
+a:hover {
+    background-color: deepskyblue;
+}
+
+a:visited {
+    background-color: lightslategray
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
