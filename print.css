@@ -1,0 +1,19 @@
+CSS
+
+
+body {
+    font-size:12pt;
+    color: #000;
+}
+
+.itinerary {
+    background:none;
+
+}
+
+nav , footer .sidebar {
+    display:none;
+}
+main {
+    width: 100%;
+}
