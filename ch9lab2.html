@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Trip - Request Form</title>
+    <link rel="stylesheet" href="ch9lab.css">
+</head>
+<body>
+
+    <h1>Plan Your Trip</h1>
+
+    <form id="request" method="post" action="https://formspree.io/f/xppponje">
+
+        <!-- Hidden field required by Formspree -->
+        <input type="hidden" name="_subject" value="Trip Request Form Submission">
+
+        <!-- Name -->
+        <label for="fullname">Full Name <span class="required">*</span></label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <!-- Email -->
+        <label for="email">Email Address <span class="required">*</span></label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Travel Blog (optional) -->
+        <label for="blog">Your Travel Blog (optional)</label>
+        <input type="url" id="blog" name="blog" placeholder="https://">
+
+        <!-- Number of Travelers -->
+        <label for="travelers">Number of Travelers <span class="required">*</span></label>
+        <input type="number" id="travelers" name="travelers"
+               min="1" max="12" step="1" value="2" required>
+
+        <!-- Departure Date -->
+        <label for="depdate">Departure Date</label>
+        <input type="date" id="depdate" name="depdate" min="2025-01-01">
+
+        <!-- Departure Time -->
+        <label for="deptime">Departure Time</label>
+        <input type="time" id="deptime" name="deptime"
+               min="05:00" max="23:00" step="600">
+
+        <!-- Budget Range -->
+        <label for="budget">Budget: <span id="budgetDisplay">$2500</span></label>
+        <input type="range" id="budget" name="budget"
+               min="500" max="5000" step="100" value="2500"
+               oninput="document.getElementById('budgetDisplay').textContent = '$' + this.value">
+
+        <!-- Color Picker -->
+        <label for="tripcolor">Pick a Color for Your Trip</label>
+        <input type="color" id="tripcolor" name="tripcolor" value="#4a90d9">
+
+        <!-- Favorite City with Datalist -->
+        <label for="favcity">Favorite City</label>
+        <input type="text" id="favcity" name="favcity" list="cityOptions">
+        <datalist id="cityOptions">
+            <option value="Paris">
+            <option value="Tokyo">
+            <option value="New York">
+            <option value="Rome">
+            <option value="Sydney">
+            <option value="Barcelona">
+        </datalist>
+
+        <!-- ZIP / Postal Code with Pattern -->
+        <label for="zipcode">ZIP or Postal Code</label>
+        <input type="text" id="zipcode" name="zipcode"
+               pattern="[0-9]{5}"
+               title="Please enter a 5-digit ZIP code (e.g., 90210)">
+
+        <!-- Submit Button -->
+        <button type="submit" name="submit" value="Final">Submit</button>
+
+    </form>
+
+    <footer>
+        <p>Lukas Fiebig | lukas@email.com</p>
+    </footer>
+
+</body>
+</html>
