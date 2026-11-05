@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trip inquiry</title>
+        <link rel="stylesheet" href="ch9lab.css">
+    </head>
+    <body
+    <h1>Plan your trip</h1>
+    <formid="inquiry" method="post" action="#">
+        <div class="form-row">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" accesskey="n" tabindex="1">
+        </div>
+        <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-row">
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination" required>
+                <optgroup label="Europe">
+                    <option value="Italy" selected>Italy</option>
+                    <option value="France">France</option>
+                    <option value="Greece">Greece</option>
+                </optgroup>
+                <optgroup label="Asia">
+                    <option value="Japan">Japan</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="South-korea">South Korea</option>
+                </optgroup>
+            </select>
+        </div>
+        <fielset>
+            <legend> Travel style</legend>  
+            <div class="choice">
+                <input type="radio" id="adventure" name="style" value="relaxing" checked>
+                <label for="relaxing">Relaxing</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="cultural" name="style" value="adventure">
+                    <label for="adventure">Adventure</label>
+
+                </div>
+                <div class="choice">
+                    <input type="radio" id="cultural" name="style" value="cultural">
+                    <label for="cultural">Cultural</label>
+                </div>
+
+        </fielset>
+        <fielset>
+            <legend>Extras</legend>
+            <div class="choice">
+            <input type=""checkbox" id="hotel" name="extras" value="hotel">
+            <label for="hotel">Hotel Reservation</label>
+            </div>
+            <div class="choice">
+                <input type="checkbox" id="flights" name="extras" value="flights">
+                <label for="flights">Flight Tickets</label>
+            </div>
+            <div class="choice">
+                <input type="checkbox" id="tour" name="extras" value="tour">
+                <label for="tour">Guided Tour</label>
+        </fielset>
+        <div class="form-row">
+            <label for="comments">Questions and Comments:</label>
+            <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+        </div>
+        <div class="submit-row">
+            <input type="image" src="images/send-button.png" alt="Send your inquiry">
+        </div>
+
+    </form>
+    <footer>
+        <p>name: YOUR NAME</p>
+        <p>email: YOUR EMAIL ADDRESS</p>
+    </footer>
+</body>
+    
+
+    
+</html>
